@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
-const client3 = new Discord.Client();
-const client4 = new Discord.Client();
+const client = new Discord.Client();
+const client2 = new Discord.Client();
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -84,5 +84,5 @@ if (message.content === '!spam') {
 
 
 
-client3.login(process.env.TOKEN3);// لا تغير فيها شيء
-client4.login(process.env.TOKEN4);// لا تغير فيها شيء
+client.login(process.env.TOKEN);// لا تغير فيها شيء
+client2.login(process.env.TOKEN2);// لا تغير فيها شيء
